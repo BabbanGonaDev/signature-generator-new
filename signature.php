@@ -51,7 +51,7 @@ $location = $_POST['location']
                             <div class=" d-flex">
                                 <div class="bg-logo-container">
                                     <a href="http://www.babbangona.com">
-                                        <img class="bg-logo" src="images/logo.jpg" width="176" id="logo" />
+                                        <img class="bg-logo" src="http://signature-generator.babbangonaapps.com/images/logo.jpg" width="176" id="logo" />
                                     </a>
                                 </div>
                                 <div class="better-life-container">

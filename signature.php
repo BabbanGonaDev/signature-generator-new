@@ -55,7 +55,7 @@ $location = $_POST['location']
                                     </a>
                                 </div>
                                 <div class="better-life-container">
-                                    <img class="better-life" src="images/better-life.png" />
+                                    <img class="better-life" src="http://signature-generator.babbangonaapps.com/images/better-life.png" />
                                 </div>
                             </div>
                             <div id="socials" class="socials ">
@@ -63,17 +63,17 @@ $location = $_POST['location']
                                     <div class="social-text">Follow us on</div>
                                     <div class="d-flex">
                                         <div class="social-img social-img-m">
-                                            <a href="http://www.instagram.com/babban.gona"><img class="instagram" src="images/instagram.png" width="20" height="20" /></a>
+                                            <a href="http://www.instagram.com/babban.gona"><img class="instagram" src="http://signature-generator.babbangonaapps.com/images/instagram.png" width="20" height="20" /></a>
                                         </div>
 
                                         <div class="social-img social-img-m">
-                                            <a href="https://twitter.com/BabbanGona"><img class="twitter" src="images/twitter.png" width="20" height="20" /></a>
+                                            <a href="https://twitter.com/BabbanGona"><img class="twitter" src="http://signature-generator.babbangonaapps.com/images/twitter.png" width="20" height="20" /></a>
                                         </div>
                                         <div class="social-img social-img-m">
-                                            <a href="https://web.facebook.com/OfficialBabbanGona/?_rdc=1&_rdr"><img class="twitter" src="images/facebook.png" width="auto" height="20" /></a>
+                                            <a href="https://web.facebook.com/OfficialBabbanGona/?_rdc=1&_rdr"><img class="twitter" src="http://signature-generator.babbangonaapps.com/images/facebook.png" width="auto" height="20" /></a>
                                         </div>
                                         <div class="social-img">
-                                            <a href="https://www.linkedin.com/company/babban-gona/"><img class="linkedin" src="images/linkedin.png" width="20" height="20" /></a>
+                                            <a href="https://www.linkedin.com/company/babban-gona/"><img class="linkedin" src="http://signature-generator.babbangonaapps.com/images/linkedin.png" width="20" height="20" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -85,33 +85,33 @@ $location = $_POST['location']
                 <div id="links" class="row d-lg-flex d-sm-flex flex-lg-row flex-sm-column align-items-center">
                     <div class="d-flex">
                         <div class="link-text">For more <br> cover stories <br> click the link</div>
-                        <div class="arrow-container"><img class="arrow" src="images/arrow.png" /></div>
+                        <div class="arrow-container"><img class="arrow" src="http://signature-generator.babbangonaapps.com/images/arrow.png" /></div>
                         <div class="skoll-container">
-                            <a href="https://www.youtube.com/watch?v=AEKTE8KqhvQ" target="_blank"><img class="skoll" src="images/skoll.png" /></a>
+                            <a href="https://www.youtube.com/watch?v=AEKTE8KqhvQ" target="_blank"><img class="skoll" src="http://signature-generator.babbangonaapps.com/images/skoll.png" /></a>
                         </div>
 
                         <div class="wsj-container">
-                            <a href="https://www.wsj.com/articles/making-farming-more-profitableand-thwarting-boko-haram-1490981320" target="_blank"><img class="wsj" src="images/wsj.png" width="35" /></a>
+                            <a href="https://www.wsj.com/articles/making-farming-more-profitableand-thwarting-boko-haram-1490981320" target="_blank"><img class="wsj" src="http://signature-generator.babbangonaapps.com/images/wsj.png" width="35" /></a>
                         </div>
 
                         <div class="ted-container">
-                            <a href="https://www.youtube.com/watch?v=21hgbMa_sVcHow" target="_blank"><img class="ted" src="images/ted.png" width="35" height="15" /></a>
+                            <a href="https://www.youtube.com/watch?v=21hgbMa_sVcHow" target="_blank"><img class="ted" src="http://signature-generator.babbangonaapps.com/images/ted.png" width="35" height="15" /></a>
                         </div>
 
                         <div class="forbes-container">
-                            <a href="https://www.forbes.com/sites/lilachbullock/2019/03/05/2019s-top-5-most-innovative-and-impactful-social-enterprises/#16f7225e774a" target="_blank"><img class="forbes" src="images/forbes-logo.png" /></a>
+                            <a href="https://www.forbes.com/sites/lilachbullock/2019/03/05/2019s-top-5-most-innovative-and-impactful-social-enterprises/#16f7225e774a" target="_blank"><img class="forbes" src="http://signature-generator.babbangonaapps.com/images/forbes-logo.png" /></a>
                         </div>
                     </div>
 
                     <div class="d-flex">
                         <div class="givefood-container">
-                            <a href="https://www.givefood.ng" target="_blank"><img class="givefood" src="images/givefoodlogo.jpg" width="25" height="10" /></a>
+                            <a href="https://www.givefood.ng" target="_blank"><img class="givefood" src="http://signature-generator.babbangonaapps.com/images/givefoodlogo.jpg" width="25" height="10" /></a>
                         </div>
 
                         <div class="kiva-container">
-                            <a href="https://www.kiva.org/lend?partner=288&status=fundRaising&sortBy=newest"><img class="kiva" src="images/kiva.png" width="25" height="10" /></a>
+                            <a href="https://www.kiva.org/lend?partner=288&status=fundRaising&sortBy=newest"><img class="kiva" src="http://signature-generator.babbangonaapps.com/images/kiva.png" width="25" height="10" /></a>
                         </div>
-                        <div class="back-arrow-container"><img class="arrow" src="images/back-arrow.png" /></div>
+                        <div class="back-arrow-container"><img class="arrow" src="http://signature-generator.babbangonaapps.com/images/back-arrow.png" /></div>
                         <div class="link-text">Make a <br> donation</div>
 
                     </div>

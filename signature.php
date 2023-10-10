@@ -6,7 +6,51 @@ $email = $_POST['email'];
 $jobtitle = $_POST['jobtitle'];
 $phone = $_POST['pnumber'];
 // $qualifications = $_POST['qualifications'];
-$location = $_POST['location']
+$location = $_POST['location'];
+
+$bg_logo_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/logo.jpg'); 
+$bg_logo = base64_encode($bg_logo_img);
+
+$better_life_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/better-life.png');
+$better_life = base64_encode($better_life_img);
+
+
+$instagram_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/instagram.png'); 
+$instagram = base64_encode($instagram_img);
+
+$twitter_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/twitter.png'); 
+$twitter = base64_encode($twitter_img);
+
+$facebook_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/facebook.png'); 
+$facebook = base64_encode($facebook_img);
+
+$linkedin_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/linkedin.png'); 
+$linkedin = base64_encode($linkedin_img);
+
+$arrow_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/arrow.png'); 
+$arrow = base64_encode($arrow_img);
+
+$skoll_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/skoll.png'); 
+$skoll = base64_encode($skoll_img);
+
+$wsj_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/wsj.png'); 
+$wsj = base64_encode($wsj_img);
+
+$ted_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/ted.png'); 
+$ted = base64_encode($ted_img);
+
+$forbes_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/forbes-logo.png'); 
+$forbes = base64_encode($forbes_img);
+
+$givefood_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/givefoodlogo.jpg'); 
+$givefood = base64_encode($givefood_img);
+
+$kiva_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/kiva.png'); 
+$kiva = base64_encode($kiva_img);
+
+$back_arrow_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/back-arrow.png'); 
+$back_arrow = base64_encode($back_arrow_img);
+
 
 ?>
 
@@ -51,11 +95,11 @@ $location = $_POST['location']
                             <div class=" d-flex">
                                 <div class="bg-logo-container">
                                     <a href="http://www.babbangona.com">
-                                        <img class="bg-logo" src="http://signature-generator.babbangonaapps.com/images/logo.jpg" width="176" id="logo" />
+                                        <img class="bg-logo" src="<?php echo 'data:image/png;base64,'. $bg_logo ?>" width="176" id="logo" />
                                     </a>
                                 </div>
                                 <div class="better-life-container">
-                                    <img class="better-life" src="http://signature-generator.babbangonaapps.com/images/better-life.png" />
+                                    <img class="better-life" src="<?php echo 'data:image/png;base64,'. $better_life ?>" />
                                 </div>
                             </div>
                             <div id="socials" class="socials ">
@@ -63,17 +107,17 @@ $location = $_POST['location']
                                     <div class="social-text">Follow us on</div>
                                     <div class="d-flex">
                                         <div class="social-img social-img-m">
-                                            <a href="http://www.instagram.com/babban.gona"><img class="instagram" src="http://signature-generator.babbangonaapps.com/images/instagram.png" width="20" height="20" /></a>
+                                            <a href="http://www.instagram.com/babban.gona"><img class="instagram" src="<?php echo 'data:image/png;base64,'. $instagram ?>" width="20" height="20" /></a>
                                         </div>
 
                                         <div class="social-img social-img-m">
-                                            <a href="https://twitter.com/BabbanGona"><img class="twitter" src="http://signature-generator.babbangonaapps.com/images/twitter.png" width="20" height="20" /></a>
+                                            <a href="https://twitter.com/BabbanGona"><img class="twitter" src="<?php echo 'data:image/png;base64,'. $twitter ?>" width="20" height="20" /></a>
                                         </div>
                                         <div class="social-img social-img-m">
-                                            <a href="https://web.facebook.com/OfficialBabbanGona/?_rdc=1&_rdr"><img class="twitter" src="http://signature-generator.babbangonaapps.com/images/facebook.png" width="auto" height="20" /></a>
+                                            <a href="https://web.facebook.com/OfficialBabbanGona/?_rdc=1&_rdr"><img class="twitter" src="<?php echo 'data:image/png;base64,'. $facebook ?>" width="auto" height="20" /></a>
                                         </div>
                                         <div class="social-img">
-                                            <a href="https://www.linkedin.com/company/babban-gona/"><img class="linkedin" src="http://signature-generator.babbangonaapps.com/images/linkedin.png" width="20" height="20" /></a>
+                                            <a href="https://www.linkedin.com/company/babban-gona/"><img class="linkedin" src="<?php echo 'data:image/png;base64,'. $linkedin ?>" width="20" height="20" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -85,33 +129,33 @@ $location = $_POST['location']
                 <div id="links" class="row d-lg-flex d-sm-flex flex-lg-row flex-sm-column align-items-center">
                     <div class="d-flex">
                         <div class="link-text">For more <br> cover stories <br> click the link</div>
-                        <div class="arrow-container"><img class="arrow" src="http://signature-generator.babbangonaapps.com/images/arrow.png" /></div>
+                        <div class="arrow-container"><img class="arrow" src="<?php echo 'data:image/png;base64,'. $arrow ?>" /></div>
                         <div class="skoll-container">
-                            <a href="https://www.youtube.com/watch?v=AEKTE8KqhvQ" target="_blank"><img class="skoll" src="http://signature-generator.babbangonaapps.com/images/skoll.png" /></a>
+                            <a href="https://www.youtube.com/watch?v=AEKTE8KqhvQ" target="_blank"><img class="skoll" src="<?php echo 'data:image/png;base64,'. $skoll ?>" /></a>
                         </div>
 
                         <div class="wsj-container">
-                            <a href="https://www.wsj.com/articles/making-farming-more-profitableand-thwarting-boko-haram-1490981320" target="_blank"><img class="wsj" src="http://signature-generator.babbangonaapps.com/images/wsj.png" width="35" /></a>
+                            <a href="https://www.wsj.com/articles/making-farming-more-profitableand-thwarting-boko-haram-1490981320" target="_blank"><img class="wsj" src="<?php echo 'data:image/png;base64,'. $wsj ?>" width="35" /></a>
                         </div>
 
                         <div class="ted-container">
-                            <a href="https://www.youtube.com/watch?v=21hgbMa_sVcHow" target="_blank"><img class="ted" src="http://signature-generator.babbangonaapps.com/images/ted.png" width="35" height="15" /></a>
+                            <a href="https://www.youtube.com/watch?v=21hgbMa_sVcHow" target="_blank"><img class="ted" src="<?php echo 'data:image/png;base64,'. $ted ?>" width="35" height="15" /></a>
                         </div>
 
                         <div class="forbes-container">
-                            <a href="https://www.forbes.com/sites/lilachbullock/2019/03/05/2019s-top-5-most-innovative-and-impactful-social-enterprises/#16f7225e774a" target="_blank"><img class="forbes" src="http://signature-generator.babbangonaapps.com/images/forbes-logo.png" /></a>
+                            <a href="https://www.forbes.com/sites/lilachbullock/2019/03/05/2019s-top-5-most-innovative-and-impactful-social-enterprises/#16f7225e774a" target="_blank"><img class="forbes" src="<?php echo 'data:image/png;base64,'. $forbes ?>" /></a>
                         </div>
                     </div>
 
                     <div class="d-flex">
                         <div class="givefood-container">
-                            <a href="https://www.givefood.ng" target="_blank"><img class="givefood" src="http://signature-generator.babbangonaapps.com/images/givefoodlogo.jpg" width="25" height="10" /></a>
+                            <a href="https://www.givefood.ng" target="_blank"><img class="givefood" src="<?php echo 'data:image/png;base64,'. $givefood ?>" width="25" height="10" /></a>
                         </div>
 
                         <div class="kiva-container">
-                            <a href="https://www.kiva.org/lend?partner=288&status=fundRaising&sortBy=newest"><img class="kiva" src="http://signature-generator.babbangonaapps.com/images/kiva.png" width="25" height="10" /></a>
+                            <a href="https://www.kiva.org/lend?partner=288&status=fundRaising&sortBy=newest"><img class="kiva" src="<?php echo 'data:image/png;base64,'. $kiva ?>" width="25" height="10" /></a>
                         </div>
-                        <div class="back-arrow-container"><img class="arrow" src="http://signature-generator.babbangonaapps.com/images/back-arrow.png" /></div>
+                        <div class="back-arrow-container"><img class="arrow" src="<?php echo 'data:image/png;base64,'. $back_arrow ?>" /></div>
                         <div class="link-text">Make a <br> donation</div>
 
                     </div>

@@ -8,47 +8,47 @@ $phone = $_POST['pnumber'];
 // $qualifications = $_POST['qualifications'];
 $location = $_POST['location'];
 
-$bg_logo_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/logo.jpg'); 
+$bg_logo_img = file_get_contents('./images/logo.jpg'); 
 $bg_logo = base64_encode($bg_logo_img);
 
-$better_life_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/better-life.png');
+$better_life_img = file_get_contents('./images/better-life.png');
 $better_life = base64_encode($better_life_img);
 
 
-$instagram_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/instagram.png'); 
+$instagram_img = file_get_contents('./images/instagram.png'); 
 $instagram = base64_encode($instagram_img);
 
-$twitter_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/twitter.png'); 
+$twitter_img = file_get_contents('./images/twitter.png'); 
 $twitter = base64_encode($twitter_img);
 
-$facebook_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/facebook.png'); 
+$facebook_img = file_get_contents('./images/facebook.png'); 
 $facebook = base64_encode($facebook_img);
 
-$linkedin_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/linkedin.png'); 
+$linkedin_img = file_get_contents('./images/linkedin.png'); 
 $linkedin = base64_encode($linkedin_img);
 
-$arrow_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/arrow.png'); 
+$arrow_img = file_get_contents('./images/arrow.png'); 
 $arrow = base64_encode($arrow_img);
 
-$skoll_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/skoll.png'); 
+$skoll_img = file_get_contents('./images/skoll.png'); 
 $skoll = base64_encode($skoll_img);
 
-$wsj_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/wsj.png'); 
+$wsj_img = file_get_contents('./images/wsj.png'); 
 $wsj = base64_encode($wsj_img);
 
-$ted_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/ted.png'); 
+$ted_img = file_get_contents('./images/ted.png'); 
 $ted = base64_encode($ted_img);
 
-$forbes_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/forbes-logo.png'); 
+$forbes_img = file_get_contents('./images/forbes-logo.png'); 
 $forbes = base64_encode($forbes_img);
 
-$givefood_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/givefoodlogo.jpg'); 
+$givefood_img = file_get_contents('./images/givefoodlogo.jpg'); 
 $givefood = base64_encode($givefood_img);
 
-$kiva_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/kiva.png'); 
+$kiva_img = file_get_contents('./images/kiva.png'); 
 $kiva = base64_encode($kiva_img);
 
-$back_arrow_img = file_get_contents('http://signature-generator.babbangonaapps.com/images/back-arrow.png'); 
+$back_arrow_img = file_get_contents('./images/back-arrow.png'); 
 $back_arrow = base64_encode($back_arrow_img);
 
 

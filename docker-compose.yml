@@ -12,7 +12,7 @@ services:
         environment:
             docker: "true"
         ports:
-            - 8082:1235
+            - 1235:1235
         volumes:
             - .:/var/www
             - logs:/var/www/logs

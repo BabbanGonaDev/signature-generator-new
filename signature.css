@@ -364,6 +364,7 @@ div#qualss {
 .vision {
     background-color: #1863DC;
     margin-bottom: 1.5em;
+    max-width: 58.33em;
 }
 
 .vision-title {

@@ -21,6 +21,9 @@ $instagram = base64_encode($instagram_img);
 $twitter_img = file_get_contents('./images/twitter.png'); 
 $twitter = base64_encode($twitter_img);
 
+$youtube_img = file_get_contents('./images/youtube.png'); 
+$youtube = base64_encode($youtube_img);
+
 $facebook_img = file_get_contents('./images/facebook.png'); 
 $facebook = base64_encode($facebook_img);
 
@@ -105,16 +108,17 @@ $back_arrow = base64_encode($back_arrow_img);
                             <div id="socials" class="socials ">
                                 <div class="">
                                     <div class="social-text">Follow us on</div>
-                                    <div class="d-flex">
+                                    <div class="d-flex align-items-center">
                                         <div class="social-img social-img-m">
                                             <a href="http://www.instagram.com/babban.gona"><img class="instagram" src="<?php echo 'data:image/png;base64,'. $instagram ?>" width="20" height="20" /></a>
                                         </div>
-
                                         <div class="social-img social-img-m">
-                                            <a href="https://twitter.com/BabbanGona"><img class="twitter" src="<?php echo 'data:image/png;base64,'. $twitter ?>" width="20" height="20" /></a>
+                                            <a href="https://www.youtube.com/@BabbanGonaFarm">
+                                                <img class="youtube" src="<?php echo 'data:image/png;base64,'. $youtube ?>" width="25" height="25" />
+                                            </a>
                                         </div>
                                         <div class="social-img social-img-m">
-                                            <a href="https://web.facebook.com/OfficialBabbanGona/?_rdc=1&_rdr"><img class="twitter" src="<?php echo 'data:image/png;base64,'. $facebook ?>" width="auto" height="20" /></a>
+                                            <a href="https://web.facebook.com/OfficialBabbanGona/?_rdc=1&_rdr"><img class="facebook" src="<?php echo 'data:image/png;base64,'. $facebook ?>" width="30" height="30" /></a>
                                         </div>
                                         <div class="social-img">
                                             <a href="https://www.linkedin.com/company/babban-gona/"><img class="linkedin" src="<?php echo 'data:image/png;base64,'. $linkedin ?>" width="20" height="20" /></a>

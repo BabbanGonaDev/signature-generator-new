@@ -127,7 +127,7 @@ $back_arrow = base64_encode($back_arrow_img);
                     </div>
                 </div>
                 <div id="links" class="row d-lg-flex d-sm-flex flex-lg-row flex-sm-column align-items-center">
-                    <div class="d-flex">
+                    <div class="d-flex align-items-center">
                         <div class="link-text">For more <br> cover stories <br> click the link</div>
                         <div class="arrow-container"><img class="arrow" src="<?php echo 'data:image/png;base64,'. $arrow ?>" /></div>
                         <div class="skoll-container">
@@ -147,10 +147,10 @@ $back_arrow = base64_encode($back_arrow_img);
                         </div>
                     </div>
 
-                    <div class="d-flex">
-                        <div class="givefood-container">
+                    <div class="d-flex align-items-center">
+                        <!-- <div class="givefood-container">
                             <a href="https://www.givefood.ng" target="_blank"><img class="givefood" src="<?php echo 'data:image/png;base64,'. $givefood ?>" width="25" height="10" /></a>
-                        </div>
+                        </div> -->
 
                         <div class="kiva-container">
                             <a href="https://www.kiva.org/lend?partner=288&status=fundRaising&sortBy=newest"><img class="kiva" src="<?php echo 'data:image/png;base64,'. $kiva ?>" width="25" height="10" /></a>
@@ -159,7 +159,15 @@ $back_arrow = base64_encode($back_arrow_img);
                         <div class="link-text">Make a <br> donation</div>
 
                     </div>
+                </div>
 
+                <div class="d-flex align-items-center py-3 justify-content-center vision">
+                    <div class="vision-title">
+                        Our Vision:
+                    </div>
+                    <div class="vision-text">
+                        To become the earth's highest impact business.
+                    </div>
                 </div>
 
                 <div class="qual" id="qualss"><em>The information contained in this message is confidential and is intended for the stated addressee(s) only. E

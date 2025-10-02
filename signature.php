@@ -149,19 +149,9 @@ $back_arrow = base64_encode($back_arrow_img);
                         <div class="forbes-container">
                             <a href="https://www.forbes.com/sites/lilachbullock/2019/03/05/2019s-top-5-most-innovative-and-impactful-social-enterprises/#16f7225e774a" target="_blank"><img class="forbes" src="<?php echo 'data:image/png;base64,'. $forbes ?>" /></a>
                         </div>
-                    </div>
-
-                    <div class="d-flex align-items-center">
-                        <!-- <div class="givefood-container">
-                            <a href="https://www.givefood.ng" target="_blank"><img class="givefood" src="<?php echo 'data:image/png;base64,'. $givefood ?>" width="25" height="10" /></a>
-                        </div> -->
-
                         <div class="kiva-container">
                             <a href="https://www.kiva.org/lend?partner=288&status=fundRaising&sortBy=newest"><img class="kiva" src="<?php echo 'data:image/png;base64,'. $kiva ?>" width="25" height="10" /></a>
                         </div>
-                        <div class="back-arrow-container"><img class="arrow" src="<?php echo 'data:image/png;base64,'. $back_arrow ?>" /></div>
-                        <div class="link-text">Make a <br> donation</div>
-
                     </div>
                 </div>
 

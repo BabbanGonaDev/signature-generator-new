@@ -1,13 +1,10 @@
 html {
     font-size: 50.5%;
-    /* background-size: cover; */
     height: 100%;
 }
-
 body {
     font-family: 'Verdana', Arial, Helvetica, sans-serif;
 }
-
 #signature-main {
     width: fit-content;
     padding-top: 0px;
@@ -18,7 +15,6 @@ body {
     margin: auto;
     margin-top: 10em;
 }
-
 #signature-div {
     background-color: transparent;
     margin-left: 3.5em;
@@ -32,55 +28,41 @@ body {
     flex-direction: column;
 
 }
-
-
-
 .name {
     font-size: 1.5em;
     font-weight: 600;
 }
-
 .job-title {
     font-size: 1.5em;
     font-weight: 700;
     color: #003296;
 }
-
 .location {
     font-size: 1.3em;
 }
-
 div.email {
     margin-top: 1.4em;
     font-size: 1.3em;
 
 }
-
 div#socials {
     border-left: solid 0.2em #e3e3e3 !important;
-    /* padding-top: 1.0em; */
-    /* padding-bottom: 2.0em; */
     padding-left: 4.5em;
     margin-left: 4.5em;
-
 }
-
 .social-text {
     font-size: 1.3em;
     font-weight: 700;
     color: #003296;
     margin-bottom: 2.0em;
 }
-
 .social-img-m {
     margin-right: 2.5em;
 }
-
 .bg-logo-container {
     width: 17.5em;
     margin-right: 3.5em;
 }
-
 .bg-logo,
 .skoll,
 .wsj,
@@ -93,84 +75,63 @@ div#socials {
     width: 100%;
     height: auto;
 }
-
 div#links {
     border-top: solid 0.2em #e3e3e3 !important;
     border-bottom: solid 0.2em #e3e3e3 !important;
     margin-top: 2.0em;
-    height: 7.1em;
-    width: 100%;
+    width: 58.33em;
+    justify-content: center;
     padding-top: 1.5em;
     padding-bottom: 1em;
+    gap: 1em;
 
 }
-
+div#links div {
+    gap: 1em;
+}
 .link-text {
     font-size: 0.9em;
 }
-
 .arrow-container {
     width: 3.6em;
     margin-left: 0.5em;
-
 }
-
 div#qualss {
     font-size: 1.0em;
     max-width: 58.5em;
-
 }
-
 #name-section {
     margin-bottom: 3em;
 }
-
 .back-arrow-container {
     width: 3.6em;
     margin-right: 0.7em;
 }
-
 .skoll-container {
     width: 4.6em;
     margin-left: 1.3em;
     margin-right: 1.3em;
 }
-
 .wsj-container {
     width: 4.2em;
     margin-right: 1.3em;
 
 }
-
 .ted-container {
     width: 6.1em;
     margin-right: 1.3em;
-
 }
-
 .forbes-container {
     width: 7.2em;
-    margin-right: 1.3em;
 }
-
-.givefood-container {
-    /* padding-top: 0.6em; */
-    padding-left: 1.3em;
-    width: 5.7em;
-    border-left: solid 0.2em #e3e3e3 !important;
-
-}
-
 .kiva-container {
     width: 4.0em;
     margin-left: 1.3em;
     margin-right: 1.3em;
 }
-
 .better-life-container {
     width: 8.0em;
 }
-
 .col,
 .col-1,
 .col-10,
@@ -244,12 +205,10 @@ div#qualss {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
-
 .row {
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
-
 @media only screen and (max-width: 580px) {
     #signature-div {
         left: 3%;
@@ -259,13 +218,11 @@ div#qualss {
         padding-left: 3%;
         padding-right: 3%;
     }
-
     div#socials {
         border-left: solid 0.2em #e3e3e3 !important;
         padding-top: 1.2em;
         padding-bottom: 2.4em;
     }
-
     .social-text {
         font-size: 1.0em;
         font-weight: 700;
@@ -294,9 +251,10 @@ div#qualss {
         border-top: solid 0.2em #e3e3e3 !important;
         border-bottom: solid 0.2em #e3e3e3 !important;
         margin-top: 1.0em;
-        height: 6.1em;
+        /* height: 6.1em; */
         padding: 2.5em 0em;
         width: fit-content;
+        justify-content: center;
         margin: auto;
     }
 

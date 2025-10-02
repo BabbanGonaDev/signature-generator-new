@@ -1,67 +1,69 @@
 html {
-    font-size: 50.5%;
-    height: 100%;
+  font-size: 50.5%;
+  height: 100%;
 }
 body {
-    font-family: 'Verdana', Arial, Helvetica, sans-serif;
+  font-family: "Verdana", Arial, Helvetica, sans-serif;
 }
 #signature-main {
-    width: fit-content;
-    padding-top: 0px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    margin: auto;
-    margin-top: 10em;
+  width: fit-content;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10em;
 }
 #signature-div {
-    background-color: transparent;
-    margin-left: 3.5em;
-    margin-right: 3.5em;
-    margin-top: 3.5em;
-    margin-bottom: 5.0em;
-    min-width: 19.5em;
-    border-radius: 7px;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-
+  background-color: transparent;
+  margin-left: 3.5em;
+  margin-right: 3.5em;
+  margin-top: 3.5em;
+  margin-bottom: 5em;
+  min-width: 19.5em;
+  border-radius: 7px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
 }
 .name {
-    font-size: 1.5em;
-    font-weight: 600;
+  font-size: 1.5em;
+  font-weight: 600;
 }
 .job-title {
-    font-size: 1.5em;
-    font-weight: 700;
-    color: #003296;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #003296;
 }
 .location {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }
 div.email {
-    margin-top: 1.4em;
-    font-size: 1.3em;
-
+  margin-top: 1.4em;
+  font-size: 1.3em;
 }
 div#socials {
-    border-left: solid 0.2em #e3e3e3 !important;
-    padding-left: 4.5em;
-    margin-left: 4.5em;
+  border-left: solid 0.2em #e3e3e3 !important;
+  padding-left: 4.5em;
+}
+div#logo-div {
+  padding-right: 4.5em;
+  margin-right: 4.5em;
+  gap: 15px;
 }
 .social-text {
-    font-size: 1.3em;
-    font-weight: 700;
-    color: #003296;
-    margin-bottom: 2.0em;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #003296;
+  margin-bottom: 2em;
 }
 .social-img-m {
-    margin-right: 2.5em;
+  margin-right: 2.5em;
 }
 .bg-logo-container {
-    width: 17.5em;
-    margin-right: 3.5em;
+  width: 17.5em;
+  margin-right: 3.5em;
 }
 .bg-logo,
 .skoll,
@@ -72,65 +74,63 @@ div#socials {
 .ted,
 .better-life,
 .arrow {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 div#links {
-    border-top: solid 0.2em #e3e3e3 !important;
-    border-bottom: solid 0.2em #e3e3e3 !important;
-    margin-top: 2.0em;
-    width: 58.33em;
-    justify-content: center;
-    padding-top: 1.5em;
-    padding-bottom: 1em;
-    gap: 1em;
-
+  border-top: solid 0.2em #e3e3e3 !important;
+  border-bottom: solid 0.2em #e3e3e3 !important;
+  margin-top: 2em;
+  width: 58.33em;
+  justify-content: center;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  gap: 1em;
 }
 div#links div {
-    gap: 1em;
+  gap: 1em;
 }
 .link-text {
-    font-size: 0.9em;
+  font-size: 0.9em;
 }
 .arrow-container {
-    width: 3.6em;
-    margin-left: 0.5em;
+  width: 3.6em;
+  margin-left: 0.5em;
 }
 div#qualss {
-    font-size: 1.0em;
-    max-width: 58.5em;
+  font-size: 1em;
+  max-width: 58.5em;
 }
 #name-section {
-    margin-bottom: 3em;
+  margin-bottom: 3em;
 }
 .back-arrow-container {
-    width: 3.6em;
-    margin-right: 0.7em;
+  width: 3.6em;
+  margin-right: 0.7em;
 }
 .skoll-container {
-    width: 4.6em;
-    margin-left: 1.3em;
-    margin-right: 1.3em;
+  width: 4.6em;
+  margin-left: 1.3em;
+  margin-right: 1.3em;
 }
 .wsj-container {
-    width: 4.2em;
-    margin-right: 1.3em;
-
+  width: 4.2em;
+  margin-right: 1.3em;
 }
 .ted-container {
-    width: 6.1em;
-    margin-right: 1.3em;
+  width: 6.1em;
+  margin-right: 1.3em;
 }
 .forbes-container {
-    width: 7.2em;
+  width: 7.2em;
 }
 .kiva-container {
-    width: 4.0em;
-    margin-left: 1.3em;
-    margin-right: 1.3em;
+  width: 4em;
+  margin-left: 1.3em;
+  margin-right: 1.3em;
 }
 .better-life-container {
-    width: 8.0em;
+  width: 8em;
 }
 .col,
 .col-1,
@@ -202,138 +202,134 @@ div#qualss {
 .col-xl-8,
 .col-xl-9,
 .col-xl-auto {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 .row {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 @media only screen and (max-width: 580px) {
-    #signature-div {
-        left: 3%;
-        margin-right: 3%;
-        width: 100%;
-        margin-left: 0;
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-    div#socials {
-        border-left: solid 0.2em #e3e3e3 !important;
-        padding-top: 1.2em;
-        padding-bottom: 2.4em;
-    }
-    .social-text {
-        font-size: 1.0em;
-        font-weight: 700;
-        color: #003296;
-        margin-bottom: 1.2em;
-    }
+  #signature-div {
+    left: 3%;
+    margin-right: 3%;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  div#socials {
+    border-left: solid 0.2em #e3e3e3 !important;
+    padding-top: 1.2em;
+    padding-bottom: 2.4em;
+  }
+  .social-text {
+    font-size: 1em;
+    font-weight: 700;
+    color: #003296;
+    margin-bottom: 1.2em;
+  }
 
-    .bg-logo-container {
-        width: 10.5em;
-    }
+  .bg-logo-container {
+    width: 10.5em;
+  }
 
-    .bg-logo,
-    .skoll,
-    .wsj,
-    .forbes,
-    .givefood,
-    .kiva,
-    .ted,
-    .better-life,
-    .arrow {
-        width: 100%;
-        height: auto;
-    }
+  .bg-logo,
+  .skoll,
+  .wsj,
+  .forbes,
+  .givefood,
+  .kiva,
+  .ted,
+  .better-life,
+  .arrow {
+    width: 100%;
+    height: auto;
+  }
 
-    div#links {
-        border-top: solid 0.2em #e3e3e3 !important;
-        border-bottom: solid 0.2em #e3e3e3 !important;
-        margin-top: 1.0em;
-        /* height: 6.1em; */
-        padding: 2.5em 0em;
-        width: fit-content;
-        justify-content: center;
-        margin: auto;
-    }
+  div#links {
+    border-top: solid 0.2em #e3e3e3 !important;
+    border-bottom: solid 0.2em #e3e3e3 !important;
+    margin-top: 1em;
+    /* height: 6.1em; */
+    padding: 2.5em 0em;
+    width: fit-content;
+    justify-content: center;
+    margin: auto;
+  }
 
-    .link-text {
-        font-size: 1.0em;
-    }
+  .link-text {
+    font-size: 1em;
+  }
 
-    .arrow-container {
-        width: 4.6em;
-        margin-left: 0.5em;
+  .arrow-container {
+    width: 4.6em;
+    margin-left: 0.5em;
+  }
 
-    }
+  .back-arrow-container {
+    width: 4.6em;
+    margin-right: 0.7em;
+  }
 
-    .back-arrow-container {
-        width: 4.6em;
-        margin-right: 0.7em;
-    }
+  .skoll-container {
+    width: 3.6em;
+    margin-left: 2.3em;
+    margin-right: 2.5em;
+  }
 
-    .skoll-container {
-        width: 3.6em;
-        margin-left: 2.3em;
-        margin-right: 2.5em;
-    }
+  .wsj-container {
+    width: 5.2em;
+    margin-right: 0.9em;
+  }
 
-    .wsj-container {
-        width: 5.2em;
-        margin-right: 0.9em;
+  .ted-container {
+    width: 8.1em;
+    margin-right: 2.5em;
+  }
 
-    }
+  .forbes-container {
+    width: 9.2em;
+    margin-right: 2.5em;
+  }
 
-    .ted-container {
-        width: 8.1em;
-        margin-right: 2.5em;
+  .givefood-container {
+    padding-top: 0.6em;
+    padding-left: 1.7em;
+    width: 7.7em;
+    border-left: none !important;
+  }
 
-    }
+  .kiva-container {
+    width: 6em;
+    margin-left: 1.4em;
+    margin-right: 1.4em;
+  }
 
-    .forbes-container {
-        width: 9.2em;
-        margin-right: 2.5em;
-    }
+  .better-life-container {
+    width: 4.8em;
+  }
 
-    .givefood-container {
-        padding-top: 0.6em;
-        padding-left: 1.7em;
-        width: 7.7em;
-        border-left: none !important;
-
-    }
-
-    .kiva-container {
-        width: 6.0em;
-        margin-left: 1.4em;
-        margin-right: 1.4em;
-    }
-
-    .better-life-container {
-        width: 4.8em;
-    }
-
-    div#footer-text {
-        width: 19.5em;
-    }
+  div#footer-text {
+    width: 19.5em;
+  }
 }
 
 .vision {
-    background-color: #183A89;
-    margin-bottom: 1.5em;
-    max-width: 58.33em;
+  background-color: #183a89;
+  margin-bottom: 1.5em;
+  max-width: 58.33em;
 }
 
 .vision-title {
-    font-size: 1.2em;
-    font-weight: 700;
-    color: #F7C41B;
-    margin-right: 0.5em;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #f7c41b;
+  margin-right: 0.5em;
 }
 
 .vision-text {
-    font-size: 1.2em;
-    font-weight: 400;
-    color: #FFFFFF;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #ffffff;
 }

@@ -93,7 +93,7 @@ $back_arrow = base64_encode($back_arrow_img);
                     </div>
                     <div class="">
                         <div class="row">
-                            <div class=" d-flex">
+                            <div id="logo-div" class=" d-flex">
                                 <div class="bg-logo-container">
                                     <a href="http://www.babbangona.com">
                                         <img class="bg-logo" src="<?php echo 'data:image/png;base64,'. $bg_logo ?>" width="176" id="logo" />

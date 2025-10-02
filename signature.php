@@ -77,9 +77,7 @@ $back_arrow = base64_encode($back_arrow_img);
 <body>
 
     <div class="signature-container">
-
         <div id="signature-main" class="">
-
             <div id="signature-div" class="" background-color="transparent">
                 <div class="first-layer">
                     <div id="name-section" class="">
@@ -87,7 +85,7 @@ $back_arrow = base64_encode($back_arrow_img);
                         <div class="job-title"><?php echo $jobtitle ?></div>
                         <div class="email"><?php echo $email ?></div>
                         <div class="location">
-                            <span><?php if ($location == "lagos") echo "Lekki Phase 1 | Lagos Nigeria";
+                            <span><?php if ($location == "lagos") echo "15a Sowemimo Street, Ikeja GRA | Lagos Nigeria";
                                     else echo "$location, Nigeria"; ?>
                                 | <?php echo $phone ?></span>
                         </div>

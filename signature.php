@@ -48,7 +48,7 @@ $forbes = base64_encode($forbes_img);
 $givefood_img = file_get_contents('./images/givefoodlogo.jpg'); 
 $givefood = base64_encode($givefood_img);
 
-$kiva_img = file_get_contents('./images/kiva.png'); 
+$kiva_img = file_get_contents('./images/kiva_new.png'); 
 $kiva = base64_encode($kiva_img);
 
 $back_arrow_img = file_get_contents('./images/back-arrow.png'); 
@@ -96,7 +96,7 @@ $back_arrow = base64_encode($back_arrow_img);
                             <div id="logo-div" class=" d-flex">
                                 <div class="bg-logo-container">
                                     <a href="http://www.babbangona.com">
-                                        <img class="bg-logo" src="<?php echo 'data:image/png;base64,'. $bg_logo ?>" width="176" id="logo" />
+                                        <img class="bg-logo" src="<?php echo 'data:image/png;base64,'. $bg_logo ?>" id="logo" />
                                     </a>
                                 </div>
                                 <div class="better-life-container">

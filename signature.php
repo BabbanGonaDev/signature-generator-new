@@ -54,6 +54,8 @@ $kiva = base64_encode($kiva_img);
 $back_arrow_img = file_get_contents('./images/back-arrow.png'); 
 $back_arrow = base64_encode($back_arrow_img);
 
+$vision_img = file_get_contents('./images/vision_image.png'); 
+$vision = base64_encode($vision_img);
 
 ?>
 
@@ -154,13 +156,11 @@ $back_arrow = base64_encode($back_arrow_img);
                     </div>
                 </div>
 
-                <div class="d-flex align-items-center py-3 justify-content-center vision">
-                    <div class="vision-title">
-                        Our Vision:
-                    </div>
-                    <div class="vision-text">
-                        To become the earth's highest impact business.
-                    </div>
+                <div class="vision">
+                    <img src="<?php echo 'data:image/png;base64,'. $vision?>"
+                        alt="Bar" 
+                        style="display:block; width:100%; height:auto;">
+                    
                 </div>
 
                 <div class="qual" id="qualss"><em>The information contained in this message is confidential and is intended for the stated addressee(s) only. E

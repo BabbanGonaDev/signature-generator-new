@@ -316,15 +316,15 @@ div#qualss {
 }
 
 .vision {
-  background-color: #183a89;
-  margin-bottom: 1.5em;
+  background-color: #183a89 !important;
+  margin-bottom: 3em;
   max-width: 58.33em;
 }
 
 .vision-title {
   font-size: 1.2em;
   font-weight: 700;
-  color: #f7c41b;
+  color: #f7c41b !important;
   margin-right: 0.5em;
 }
 

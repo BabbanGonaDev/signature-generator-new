@@ -81,15 +81,15 @@ div#links {
   border-top: solid 0.2em #e3e3e3 !important;
   border-bottom: solid 0.2em #e3e3e3 !important;
   margin-top: 2em;
-  width: 58.33em;
   justify-content: center;
   padding-top: 1.5em;
   padding-bottom: 1em;
-  gap: 1em;
+  gap: 2.5em;
 }
 div#links div {
-  gap: 1em;
+  gap: 2.5em;
 }
+
 .link-text {
   font-size: 0.9em;
 }
@@ -258,6 +258,10 @@ div#qualss {
     margin: auto;
   }
 
+  #links {
+    width: 100%;
+  }
+
   .link-text {
     font-size: 1em;
   }
@@ -318,7 +322,7 @@ div#qualss {
 .vision {
   background-color: #183a89 !important;
   margin-bottom: 3em;
-  max-width: 58.33em;
+  max-width: 515px;
 }
 
 .vision-title {

@@ -8,7 +8,7 @@ $phone = $_POST['pnumber'];
 // $qualifications = $_POST['qualifications'];
 $location = $_POST['location'];
 
-$bg_logo_img = file_get_contents('./images/logo_new.png'); 
+$bg_logo_img = file_get_contents('./images/logo.jpg'); 
 $bg_logo = base64_encode($bg_logo_img);
 
 $better_life_img = file_get_contents('./images/better-life_new.png');
@@ -131,7 +131,7 @@ $vision = base64_encode($vision_img);
                     </div>
                 </div>
                 <div id="links" class="row d-lg-flex d-sm-flex flex-lg-row align-items-center">
-                    <div class="d-flex align-items-center">
+                    <div id="links1" class="d-flex align-items-center">
                         <div class="link-text">For more <br> cover stories <br> click the link</div>
                         <div class="arrow-container"><img class="arrow" src="<?php echo 'data:image/png;base64,'. $arrow ?>" /></div>
                         <div class="skoll-container">
@@ -142,7 +142,7 @@ $vision = base64_encode($vision_img);
                         </div>
                     </div>
 
-                    <div class="d-flex align-items-center">
+                    <div id="links2" class="d-flex align-items-center">
                         <div class="ted-container">
                             <a href="https://www.youtube.com/watch?v=21hgbMa_sVcHow" target="_blank"><img class="ted" src="<?php echo 'data:image/png;base64,'. $ted ?>" width="35" height="15" /></a>
                         </div>

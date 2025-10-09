@@ -253,13 +253,13 @@ div#qualss {
     margin-top: 1em;
     /* height: 6.1em; */
     padding: 2.5em 0em;
-    width: fit-content;
+    /* width: fit-content; */
     justify-content: center;
     margin: auto;
   }
 
   #links {
-    width: 100%;
+    width: 515px;
   }
 
   .link-text {
@@ -322,7 +322,9 @@ div#qualss {
 .vision {
   background-color: #183a89 !important;
   margin-bottom: 3em;
+  width: 515px;
   max-width: 515px;
+  min-width: 515px;
 }
 
 .vision-title {

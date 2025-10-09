@@ -130,7 +130,7 @@ $vision = base64_encode($vision_img);
                         </div>
                     </div>
                 </div>
-                <div id="links" class="row d-lg-flex d-sm-flex flex-lg-row align-items-center">
+                <div id="links" class="row d-lg-flex d-sm-flex flex-lg-row align-items-center" style="width:515px">
                     <div id="links1" class="d-flex align-items-center">
                         <div class="link-text">For more <br> cover stories <br> click the link</div>
                         <div class="arrow-container"><img class="arrow" src="<?php echo 'data:image/png;base64,'. $arrow ?>" /></div>
@@ -156,7 +156,7 @@ $vision = base64_encode($vision_img);
                     </div>
                 </div>
 
-                <div class="vision">
+                <div class="vision" style="width:515px">
                     <img src="<?php echo 'data:image/png;base64,'. $vision?>"
                         alt="Bar" 
                         style="display:block; width:100%; height:auto;">

@@ -130,33 +130,35 @@ $vision = base64_encode($vision_img);
                         </div>
                     </div>
                 </div>
-                <div id="links" class="row d-lg-flex d-sm-flex flex-lg-row align-items-center" style="width:515px">
-                    <div id="links1" class="d-flex align-items-center">
-                        <div class="link-text">For more <br> cover stories <br> click the link</div>
-                        <div class="arrow-container"><img class="arrow" src="<?php echo 'data:image/png;base64,'. $arrow ?>" /></div>
+                <div id="links" class="row align-items-center" style="width:515px;">
+                    <div id="links1" class="d-flex align-items-center" style="display:flex; gap:0em; width:257.5px;">
+                        <div id="together" > 
+                            <div class="link-text" style="width:60px">For more <br> cover stories <br> click the link </div>
+                            <div class="arrow-container"><img class="arrow" src="<?php echo 'data:image/png;base64,'. $arrow ?>" style=" margin-left: -15px; margin-top: -2px;"/></div>
+                        </div>
                         <div class="skoll-container">
-                            <a href="https://www.youtube.com/watch?v=AEKTE8KqhvQ" target="_blank"><img class="skoll" src="<?php echo 'data:image/png;base64,'. $skoll ?>" /></a>
+                            <a href="https://www.youtube.com/watch?v=AEKTE8KqhvQ" target="_blank"><img class="skoll link-icon-tall" src="<?php echo 'data:image/png;base64,'. $skoll ?>" /></a>
                         </div>
                         <div class="wsj-container">
-                            <a href="https://www.wsj.com/articles/making-farming-more-profitableand-thwarting-boko-haram-1490981320" target="_blank"><img class="wsj" src="<?php echo 'data:image/png;base64,'. $wsj ?>" width="35" /></a>
+                            <a href="https://www.wsj.com/articles/making-farming-more-profitableand-thwarting-boko-haram-1490981320" target="_blank"><img class="wsj link-icon" src="<?php echo 'data:image/png;base64,'. $wsj ?>" width="auto" /></a>
                         </div>
                     </div>
 
-                    <div id="links2" class="d-flex align-items-center">
+                    <div id="links2" class="d-flex align-items-center" style="display:flex; gap:0em; width:257.5px;">
                         <div class="ted-container">
-                            <a href="https://www.youtube.com/watch?v=21hgbMa_sVcHow" target="_blank"><img class="ted" src="<?php echo 'data:image/png;base64,'. $ted ?>" width="35" height="15" /></a>
+                            <a href="https://www.youtube.com/watch?v=21hgbMa_sVcHow" target="_blank"><img class="ted link-icon" src="<?php echo 'data:image/png;base64,'. $ted ?>" width="auto" /></a>
                         </div>
                         <div class="forbes-container">
-                            <a href="https://www.forbes.com/sites/lilachbullock/2019/03/05/2019s-top-5-most-innovative-and-impactful-social-enterprises/#16f7225e774a" target="_blank"><img class="forbes" src="<?php echo 'data:image/png;base64,'. $forbes ?>" /></a>
+                            <a href="https://www.forbes.com/sites/lilachbullock/2019/03/05/2019s-top-5-most-innovative-and-impactful-social-enterprises/#16f7225e774a" target="_blank"><img class="forbes link-icon" src="<?php echo 'data:image/png;base64,'. $forbes ?>" /></a>
                         </div>
                         <div class="kiva-container">
-                            <a href="https://www.kiva.org/lend?partner=288&status=fundRaising&sortBy=newest"><img class="kiva" src="<?php echo 'data:image/png;base64,'. $kiva ?>" width="25" height="10" /></a>
+                            <a href="https://www.kiva.org/lend?partner=288&status=fundRaising&sortBy=newest"><img class="kiva link-icon" src="<?php echo 'data:image/png;base64,'. $kiva ?>" width="auto" /></a>
                         </div>
                         
                     </div>
                 </div>
 
-                <div class="vision" style="width:515px">
+                <div class="vision" style="width:515px;">
                     <img src="<?php echo 'data:image/png;base64,'. $vision?>"
                         alt="Bar" 
                         style="display:block; width:100%; height:auto;">

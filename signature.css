@@ -53,10 +53,11 @@ div#logo-div {
   gap: 15px;
 }
 .social-text {
-  font-size: 1.3em;
+  font-size: 1.8em;
   font-weight: 700;
   color: #003296;
-  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-bottom: .5em;
 }
 .social-img-m {
   margin-right: 2.5em;
@@ -84,18 +85,11 @@ div#links {
   justify-content: center;
   padding-top: 1.5em;
   padding-bottom: 1em;
-  gap: 2.5em;
-}
-div#links div {
-  gap: 2.5em;
+  /* gap: 2.5em; */
 }
 
-.link-text {
-  font-size: 0.9em;
-}
 .arrow-container {
   width: 3.6em;
-  margin-left: 0.5em;
 }
 div#qualss {
   font-size: 1em;
@@ -109,25 +103,35 @@ div#qualss {
   margin-right: 0.7em;
 }
 .skoll-container {
-  width: 4.6em;
-  margin-left: 1.3em;
-  margin-right: 1.3em;
+  width: auto;
+  /* margin-left: 1.3em; */
+  /* margin-right: 1.3em; */
+  margin-left: 1.5em;
+  margin-right: 1.5em;
 }
 .wsj-container {
-  width: 4.2em;
-  margin-right: 1.3em;
+  width: auto;
+  /* margin-right: 1.3em; */
+  margin-left: 1.5em;
+  margin-right: 1.5em;
 }
 .ted-container {
-  width: 6.1em;
-  margin-right: 1.3em;
+  width: auto;
+  /* margin-right: 1.3em; */
+  margin-left: 1.5em;
+  margin-right: 1.5em;
 }
 .forbes-container {
-  width: 7.2em;
+  width: auto;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
 }
 .kiva-container {
-  width: 4em;
-  margin-left: 1.3em;
-  margin-right: 1.3em;
+  width: auto;
+  /* margin-left: 1.3em; */
+  /* margin-right: 1.3em; */
+  margin-left: 1.5em;
+  margin-right: 1.5em;
 }
 .better-life-container {
   width: 8em;
@@ -223,12 +227,6 @@ div#qualss {
     padding-top: 1.2em;
     padding-bottom: 2.4em;
   }
-  .social-text {
-    font-size: 1em;
-    font-weight: 700;
-    color: #003296;
-    margin-bottom: 1.2em;
-  }
 
   .bg-logo-container {
     width: 10.5em;
@@ -264,11 +262,12 @@ div#qualss {
 
   .link-text {
     font-size: 1em;
+    width: 50px;
   }
-
-  .arrow-container {
-    width: 4.6em;
-    margin-left: 0.5em;
+  
+  .arrow {
+    margin-left: -15px;
+    margin-top: -7px;
   }
 
   .back-arrow-container {
@@ -277,24 +276,24 @@ div#qualss {
   }
 
   .skoll-container {
-    width: 3.6em;
-    margin-left: 2.3em;
-    margin-right: 2.5em;
+    width: auto;
+    /* margin-left: 2.3em; */
+    /* margin-right: 2.5em; */
   }
 
   .wsj-container {
-    width: 5.2em;
-    margin-right: 0.9em;
+    width: auto;
+    /* margin-right: 0.9em; */
   }
 
   .ted-container {
-    width: 8.1em;
-    margin-right: 2.5em;
+    width: auto;
+    /* margin-right: 2.5em; */
   }
 
   .forbes-container {
-    width: 9.2em;
-    margin-right: 2.5em;
+    width: auto;
+    /* margin-right: 2.5em; */
   }
 
   .givefood-container {
@@ -306,8 +305,8 @@ div#qualss {
 
   .kiva-container {
     width: 6em;
-    margin-left: 1.4em;
-    margin-right: 1.4em;
+    /* margin-left: 1.4em;
+    margin-right: 1.4em; */
   }
 
   .better-life-container {
@@ -338,4 +337,21 @@ div#qualss {
   font-size: 1.2em;
   font-weight: 400;
   color: #ffffff;
+}
+
+#together{
+  display: flex;
+  gap: 0px !important;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.link-icon{
+  height: 25px;
+  width: auto;
+}
+
+.link-icon-tall{
+  height: 30px;
+  width: auto;
 }

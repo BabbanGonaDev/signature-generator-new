@@ -134,7 +134,7 @@ $vision = base64_encode($vision_img);
                     <div id="links1" class="d-flex align-items-center" style="display:flex; gap:0em; width:257.5px;">
                         <div id="together" > 
                             <div class="link-text" style="width:60px">For more <br> cover stories <br> click the link </div>
-                            <div class="arrow-container"><img class="arrow" src="<?php echo 'data:image/png;base64,'. $arrow ?>" style=" margin-left: -15px; margin-top: -2px;"/></div>
+                            <div class="arrow-container" style="margin-left: -2em; margin-top: -0.2em;"><img class="arrow" src="<?php echo 'data:image/png;base64,'. $arrow ?>"/></div>
                         </div>
                         <div class="skoll-container">
                             <a href="https://www.youtube.com/watch?v=AEKTE8KqhvQ" target="_blank"><img class="skoll link-icon-tall" src="<?php echo 'data:image/png;base64,'. $skoll ?>" /></a>

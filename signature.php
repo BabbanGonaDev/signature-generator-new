@@ -87,8 +87,7 @@ $vision = base64_encode($vision_img);
                         <div class="job-title"><?php echo $jobtitle ?></div>
                         <div class="email"><?php echo $email ?></div>
                         <div class="location">
-                            <span><?php if ($location == "lagos") echo "15a Sowemimo Street, Ikeja GRA | Lagos Nigeria";
-                                    else echo "$location, Nigeria"; ?>
+                            <span><?php echo "$location, Nigeria"; ?>
                                 | <?php echo $phone ?></span>
                         </div>
 

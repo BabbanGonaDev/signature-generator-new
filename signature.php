@@ -88,7 +88,7 @@ $vision = base64_encode($vision_img);
                         <div class="email"><?php echo $email ?></div>
                         <div class="location">
                             <span><?php echo "$location, Nigeria"; ?>
-                                | <?php echo $phone ?></span>
+                                | <?php echo $phone ?> | <a href="https://www.babbangona.com">www.babbangona.com</a> </span>
                         </div>
 
                     </div>
@@ -96,7 +96,7 @@ $vision = base64_encode($vision_img);
                         <div class="row">
                             <div id="logo-div" class=" d-flex">
                                 <div class="bg-logo-container">
-                                    <a href="http://www.babbangona.com">
+                                    <a href="https://www.babbangona.com">
                                         <img class="bg-logo" src="<?php echo 'data:image/png;base64,'. $bg_logo ?>" id="logo" />
                                     </a>
                                 </div>

@@ -88,8 +88,9 @@ $vision = base64_encode($vision_img);
                         <div class="email"><?php echo $email ?></div>
                         <div class="location">
                             <span><?php echo "$location, Nigeria"; ?>
-                                | <?php echo $phone ?> | <a href="https://www.babbangona.com">www.babbangona.com</a> </span>
+                                | <?php echo $phone ?> </span>
                         </div>
+                        <div class="location"><a href="https://www.babbangona.com">www.babbangona.com</a></div>
 
                     </div>
                     <div class="">

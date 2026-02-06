@@ -54,7 +54,7 @@ $kiva = base64_encode($kiva_img);
 $back_arrow_img = file_get_contents('./images/back-arrow.png'); 
 $back_arrow = base64_encode($back_arrow_img);
 
-$vision_img = file_get_contents('./images/vision_image.png'); 
+$vision_img = file_get_contents('./images/vision_image_new.png'); 
 $vision = base64_encode($vision_img);
 
 ?>

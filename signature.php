@@ -98,11 +98,11 @@ $vision = base64_encode($vision_img);
                             <div id="logo-div" class=" d-flex">
                                 <div class="bg-logo-container">
                                     <a href="https://www.babbangona.com">
-                                        <img class="bg-logo" src="<?php echo 'data:image/png;base64,'. $bg_logo ?>" id="logo" />
+                                        <img class="bg-logo" src="<?php echo 'data:image/png;base64,'. $bg_logo ?>" id="logo" width="141.1" height="64"/>
                                     </a>
                                 </div>
                                 <div class="better-life-container">
-                                    <img class="better-life" src="<?php echo 'data:image/png;base64,'. $better_life ?>" />
+                                    <img class="better-life" src="<?php echo 'data:image/png;base64,'. $better_life ?>" width="64.7" height="75.2"/>
                                 </div>
                             </div>
                             <div id="socials" class="socials ">
@@ -134,25 +134,25 @@ $vision = base64_encode($vision_img);
                     <div id="links1" class="d-flex align-items-center" style="display:flex; gap:0em; width:257.5px;">
                         <div id="together" > 
                             <div class="link-text" style="width:60px">For more <br> cover stories <br> click the link </div>
-                            <div class="arrow-container" style="margin-left: -2em; margin-top: -0.2em;"><img class="arrow" src="<?php echo 'data:image/png;base64,'. $arrow ?>"/></div>
+                            <div class="arrow-container" style="margin-left: -2em; margin-top: -0.2em;"><img class="arrow" src="<?php echo 'data:image/png;base64,'. $arrow ?>" width="29.1" height="16"/></div>
                         </div>
                         <div class="skoll-container">
-                            <a href="https://www.youtube.com/watch?v=AEKTE8KqhvQ" target="_blank"><img class="skoll link-icon-tall" src="<?php echo 'data:image/png;base64,'. $skoll ?>" /></a>
+                            <a href="https://www.youtube.com/watch?v=AEKTE8KqhvQ" target="_blank"><img class="skoll link-icon-tall" src="<?php echo 'data:image/png;base64,'. $skoll ?>" width="52.6" height="30"/></a>
                         </div>
                         <div class="wsj-container">
-                            <a href="https://www.wsj.com/articles/making-farming-more-profitableand-thwarting-boko-haram-1490981320" target="_blank"><img class="wsj link-icon" src="<?php echo 'data:image/png;base64,'. $wsj ?>" width="auto" /></a>
+                            <a href="https://www.wsj.com/articles/making-farming-more-profitableand-thwarting-boko-haram-1490981320" target="_blank"><img class="wsj link-icon" src="<?php echo 'data:image/png;base64,'. $wsj ?>"  width="50.3" height="25"/></a>
                         </div>
                     </div>
 
                     <div id="links2" class="d-flex align-items-center" style="display:flex; gap:0em; width:257.5px;">
                         <div class="ted-container">
-                            <a href="https://www.youtube.com/watch?v=21hgbMa_sVcHow" target="_blank"><img class="ted link-icon" src="<?php echo 'data:image/png;base64,'. $ted ?>" width="auto" /></a>
+                            <a href="https://www.youtube.com/watch?v=21hgbMa_sVcHow" target="_blank"><img class="ted link-icon" src="<?php echo 'data:image/png;base64,'. $ted ?>" width="68.8" height="25"/></a>
                         </div>
                         <div class="forbes-container">
-                            <a href="https://www.forbes.com/sites/lilachbullock/2019/03/05/2019s-top-5-most-innovative-and-impactful-social-enterprises/#16f7225e774a" target="_blank"><img class="forbes link-icon" src="<?php echo 'data:image/png;base64,'. $forbes ?>" /></a>
+                            <a href="https://www.forbes.com/sites/lilachbullock/2019/03/05/2019s-top-5-most-innovative-and-impactful-social-enterprises/#16f7225e774a" target="_blank"><img class="forbes link-icon" src="<?php echo 'data:image/png;base64,'. $forbes ?>"  width="64" height="25"/></a>
                         </div>
                         <div class="kiva-container">
-                            <a href="https://www.kiva.org/lend?partner=288&status=fundRaising&sortBy=newest"><img class="kiva link-icon" src="<?php echo 'data:image/png;base64,'. $kiva ?>" width="auto" /></a>
+                            <a href="https://www.kiva.org/lend?partner=288&status=fundRaising&sortBy=newest"><img class="kiva link-icon" src="<?php echo 'data:image/png;base64,'. $kiva ?>" width="57" height="25"/></a>
                         </div>
                         
                     </div>
@@ -161,7 +161,7 @@ $vision = base64_encode($vision_img);
                 <div class="vision" style="width:515px;">
                     <img src="<?php echo 'data:image/png;base64,'. $vision?>"
                         alt="Bar" 
-                        style="display:block; width:100%; height:auto;">
+                        style="display:block; width:100%; height:auto;" width="515" height="31.5">
                     
                 </div>
 

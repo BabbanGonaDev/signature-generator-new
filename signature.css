@@ -49,7 +49,6 @@ div#socials {
 }
 div#logo-div {
   padding-right: 4.5em;
-  margin-right: 4.5em;
   gap: 15px;
 }
 .social-text {
@@ -64,7 +63,7 @@ div#logo-div {
 }
 .bg-logo-container {
   width: 17.5em;
-  margin-right: 3.5em;
+  margin-right: 3em;
 }
 .bg-logo,
 .skoll,

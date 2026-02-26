@@ -8,7 +8,7 @@ $phone = $_POST['pnumber'];
 // $qualifications = $_POST['qualifications'];
 $location = $_POST['location'];
 
-$bg_logo_img = file_get_contents('./images/logo.jpg'); 
+$bg_logo_img = file_get_contents('./images/bg_logo_new_2.png'); 
 $bg_logo = base64_encode($bg_logo_img);
 
 $better_life_img = file_get_contents('./images/better-life_new.png');
